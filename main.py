@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from app.services.pr_pipeline import pr_pipeline
+from services.pr_pipeline import pr_pipeline
 
 app = FastAPI()
 

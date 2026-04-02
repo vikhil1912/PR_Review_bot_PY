@@ -1,12 +1,12 @@
 from langgraph.graph import StateGraph, START, END
-from app.state.pr_state import PRState
+from state.pr_state import PRState
 
-from app.agents.bug_agent import bug_agent
-from app.agents.performance_agent import performance_agent
-from app.agents.security_agent import security_agent
-from app.agents.summary_agent import summary_agent
-from app.agents.fixes_agent import fixes_agent
-from app.agents.risk_agent import risk_agent
+from agents.bug_agent import bug_agent
+from agents.performance_agent import performance_agent
+from agents.security_agent import security_agent
+from agents.summary_agent import summary_agent
+from agents.fixes_agent import fixes_agent
+from agents.risk_agent import risk_agent
 
 
 builder = StateGraph(PRState)

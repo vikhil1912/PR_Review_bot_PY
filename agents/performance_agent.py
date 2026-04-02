@@ -1,4 +1,4 @@
-from app.utils.llm import llm
+from utils.llm import llm
 import json
 import re
 

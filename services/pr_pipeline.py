@@ -1,6 +1,6 @@
-from app.graph.pr_graph import graph
-from app.processing.patches import extract_cleaned_patches
-from app.processing.processPatches import process_pr_files
+from graph.pr_graph import graph
+from processing.patches import extract_cleaned_patches
+from processing.processPatches import process_pr_files
 import requests
 import os
 
